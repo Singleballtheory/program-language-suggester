@@ -29,7 +29,11 @@ $(document).ready(function() {
       
     if (question1 === "no") {
       $("#result").show("result");
-    } 
+    } else if (question4 === "no") {
+      $("#helpful").show("helpful");
+    } else if (question5 === "yes") {
+      $("#ruby").show("ruby");
+    }
   });
 });
 
