@@ -5,8 +5,9 @@ By Scott Hutley
 ## Technologies Used
 
 * html
-* Bootstrap css
+* Bootstrap
 * JavaScript
+* Branching
 
 ## Purpose and Objectives
 
@@ -20,13 +21,12 @@ This is a project designed to take user input and determine a programming langua
 
 ## Known Issues
 
-* No results are currently given regardless of inputs
-* Missing branching mechanics that would generate outcomes
+* Does not currently have a reset function
 * Placeholder text exists in several locations
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](./license.txt)
 
 ## Contact Information
 
