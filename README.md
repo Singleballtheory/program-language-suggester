@@ -21,8 +21,7 @@ This is a project designed to take user input and determine a programming langua
 
 ## Known Issues
 
-* Does not currently have a reset function
-* Placeholder text exists in several locations
+* No known issues, just limited outcomes.
 
 ## License
 
