@@ -28,12 +28,19 @@ $(document).ready(function() {
     const question5 = $("#question5").val();
       
     if (question1 === "no") {
-      $("#result").show("result");
+      $("#java").show("java");
+      $("#helpful").hide("helpful");
+      $("#ruby").hide("ruby");
     } else if (question4 === "no") {
+      $("#java").hide("java");
       $("#helpful").show("helpful");
+      $("#ruby").hide("ruby");
     } else if (question5 === "yes") {
+      $("#java").hide("java");
+      $("#helpful").hide("helpful");
       $("#ruby").show("ruby");
     }
   });
 });
 
+// Switched from .show to .toggle. Works slightly better but still needs refining. What I really need is a simple reset button though.
